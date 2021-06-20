@@ -1,0 +1,43 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: rgb(146, 145, 153);
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  width: 500px;
+  border-radius: 25px;
+  padding: 1px;
+}
+
+.ball {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#reset-game {
+  margin-bottom: 15px;
+}
+
+footer {
+  padding: 1px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
